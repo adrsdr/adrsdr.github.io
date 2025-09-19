@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 瑕疵日志
+subtitle: '在完美的寂静中，聆听纸页的微声。'
+description: '世界是一份完美的文稿。我只是一个在页边空白处，记录印刷错误的校对员。'
+keywords: 观察日志, 信号, 城市勘误, 记忆碎片, 瑕疵
+author: 校对员
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://blog.203866.xyz/
+permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -96,9 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy 前面没有空格
 deploy:
-  type: ''
+  # 下面所有项，前面都有两个空格
+  type: 'git'
+  repo: git@github.com:adrsdr/adrsdr.github.io.git
+  branch: main
