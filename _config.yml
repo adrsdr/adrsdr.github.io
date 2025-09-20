@@ -100,5 +100,11 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy 前面没有空格
 deploy:
-  type: ''
+  # 下面所有项，前面都有两个空格
+  type: 'git'
+  repo: git@github.com-adrsdr:adrsdr/adrsdr.github.io.git
+  branch: main
+  name: adrsdr
+  email: sipeter@126.com
