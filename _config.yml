@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 42号信标
+subtitle: '于代码的塔顶，点亮一束关于技术、宇宙与人生的信号。'
+description: '守塔人的个人博客。这里是一个独立开发者发出的信号集：关于构筑数字世界的代码片段，来自另一个宇宙的零星回响，以及人生旅途中的沉思与独白。'
+keywords: 独立开发, 技术博客, 个人博客, 奇想, 随笔, 守塔人
+author: 守塔人
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.203866.xyz/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -106,5 +106,3 @@ deploy:
   type: 'git'
   repo: git@github.com-adrsdr:adrsdr/adrsdr.github.io.git
   branch: main
-  name: adrsdr
-  email: sipeter@126.com
