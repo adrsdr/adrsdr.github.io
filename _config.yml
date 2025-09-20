@@ -104,5 +104,5 @@ theme: next
 deploy:
   # 下面所有项，前面都有两个空格
   type: 'git'
-  repo: git@github.com-adrsdr:adrsdr/adrsdr.github.io.git
+  repo: git@github.com:adrsdr/adrsdr.github.io.git
   branch: main
